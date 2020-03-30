@@ -13,7 +13,7 @@ import java.awt.image.BufferStrategy;
 
 /**
  *
- * @author perilli.alberto
+ * @author prudente.alessandro
  */
 public class Intro extends Space {
 
