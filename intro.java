@@ -17,7 +17,7 @@ import java.awt.image.BufferStrategy;
  */
 public class Intro extends Space {
 
-    private int i;
+    private int i;"
     private BufferStrategy strategy;
 
     void run() throws InterruptedException {
@@ -49,7 +49,7 @@ public class Intro extends Space {
         g.setFont(new Font("Bold", Font.PLAIN, 40 + i)); // Imposta il font della scrittura e la dimensione
         g.drawString("Space Invaders", 100 + i, 100 + i); // Serve ad impostare la poszione della scritta
         g.setFont(new Font("Bold", Font.PLAIN, 10 + i));
-        g.drawString("           By Alberto Perilli", 110 + i + i, 110 + i + i);
+        g.drawString("           By Alessandro Prudente", 110 + i + i, 110 + i + i);
         g.dispose();
         strategy.show();
     }
